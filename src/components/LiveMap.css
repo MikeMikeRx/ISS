@@ -22,3 +22,7 @@
     box-shadow: 20px 20px 100px rgba(255, 255, 255, 0.404);
     overflow: hidden;
 }
+
+.map-container { 
+    margin-top: 60px;
+}

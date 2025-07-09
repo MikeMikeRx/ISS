@@ -27,7 +27,10 @@ const App = () => {
     <p>{lat}</p>
     <h2>Longitude:</h2>
     <p>{lon}</p>
-    <LiveMap lat={lat} lon={lon} />
+
+    <div className="map-container">
+      <LiveMap lat={lat} lon={lon} />
+    </div>
     </div>
   )
 }
