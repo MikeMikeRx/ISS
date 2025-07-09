@@ -10,10 +10,3 @@ A React app that shows the current location of the International Space Station (
 - Smooth map recentering as the ISS moves every 5 seconds
 - Responsive layout with map centered on page and styled border
 
-## 🛠Installation
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/yourusername/ISS.git
-cd ISS
