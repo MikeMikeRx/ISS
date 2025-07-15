@@ -22,10 +22,11 @@ const App = () => {
   
   return (
     <div className="container">
-    <h1 className="title">International Space Station:</h1>
-    <h2>Latitude:</h2>
+    <h1 className="title">International Space Station</h1>
+    <h2>ISS Location:</h2>
+    <h3>Latitude:</h3>
     <p>{lat}</p>
-    <h2>Longitude:</h2>
+    <h3>Longitude:</h3>
     <p>{lon}</p>
 
     <div className="map-container">
