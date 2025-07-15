@@ -17,9 +17,9 @@
     width: 60%;
     height: 300px;
     margin: 2rem auto;
-    border: 10px solid rgb(102, 0, 102);
+    border: 8px solid rgb(36, 75, 160);
     border-radius: 12px;
-    box-shadow: 20px 20px 100px rgba(255, 255, 255, 0.404);
+    box-shadow: 20px 20px 100px rgba(255, 255, 255, 0.692);
     overflow: hidden;
 }
 

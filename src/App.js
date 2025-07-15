@@ -1,6 +1,7 @@
 import LiveMap from "./components/LiveMap"
 import { useState, useEffect } from "react"
 
+
 const App = () => {
   const [lat, setLat] = useState (0)
   const [lon, setLon] = useState (0)
@@ -20,7 +21,7 @@ const App = () => {
   }, [])
 
   
-  return (
+  return (    
     <div className="container">
     <h1 className="title">International Space Station</h1>
     <h2>ISS Location:</h2>
@@ -32,7 +33,7 @@ const App = () => {
     <div className="map-container">
       <LiveMap lat={lat} lon={lon} />
     </div>
-    </div>
+    </div>    
   )
 }
   
